@@ -1,0 +1,72 @@
+.App{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card__btn{
+    display: flex;
+    border-radius: 8px;
+    width: 50px;
+    height: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    min-width: 40px;
+    transform: translate(1px, -1px);
+}
+.btn:hover{
+    transform: translate(1px, -1px);
+}
+.card__btn:hover{
+    background: transparent;
+    color: black;
+    border: 2px solid white;
+    padding: 10px 18px;
+}
+.card{
+    max-width: 325px;
+    max-height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow:none;
+    overflow: hidden;
+    
+}
+.card:hover{
+    box-shadow: 0 2px 100px white;
+    transition: 0.5s;
+
+}
+.card__quote{
+    font-size: 29px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 18px;
+    padding-top: 0;
+    line-height: 1.1;
+}
+.card__author{
+    font-size: 22px;
+    font-style: italic;
+    font-weight: lighter;
+    padding-bottom: 0;
+    line-height: 1;
+}
+.gift{
+    height: 90px;
+    width: 90px;
+    padding-left: 185px;
+}
+.card__cont{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    margin: 0;
+}
